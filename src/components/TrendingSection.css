@@ -1,0 +1,45 @@
+/* src/components/TrendingSection.css */
+
+.trending-section {
+  padding: 2rem;
+}
+
+.trending-heading {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.trending-container {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  justify-content: center;
+}
+
+/* Optional: Custom Scrollbar */
+.trending-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.trending-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .movie-card {
+    width: 120px;
+  }
+
+  .movie-card img {
+    height: 160px;
+  }
+
+  .movie-title {
+    font-size: 0.8rem;
+  }
+}

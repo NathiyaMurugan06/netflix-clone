@@ -1,12 +1,108 @@
-# React + Vite
+# 🎬 Netflix Clone UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive **Netflix UI clone** built using **React**, designed to mimic the look and feel of the popular streaming platform. This project is ideal for practicing frontend design, component structuring, and layout management using modern tools.
 
-Currently, two official plugins are available:
+🚀 **Live Demo**: [View on Netlify](https://nathiyamurugan.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎥 Hero Banner with Featured Content
+- 🔍 Responsive Navigation Bar
+- 🔥 Trending Movie Section (with horizontal scroll)
+- 🎬 Movie Cards with Hover Effect
+- ⚙️ Component-Based Design
+- 🌙 Full Dark UI
+- 📱 Fully Responsive on Mobile and Tablet
+- 🎞️ Custom Scrollbar for Trending Section
+
+---
+
+## 📁 Project Structure
+
+```
+
+netflix-clone/
+├── public/
+│   └── assets/
+│       ├── Dragon.jpg
+│       ├── gray-man.jpg
+│       ├── Thug-Life.jpg
+│       ├── Maharaja.jpg
+│       ├── Hey-Sinamika.jpg
+│       ├── user-icon.png
+│       └── netflix-logo.png
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   ├── data/
+│   │   └── movie.js
+│   └── components/
+│       ├── Navbar.jsx
+│       ├── Navbar.css
+│       ├── HeroSection.jsx
+│       ├── HeroSection.css
+│       ├── TrendingSection.jsx
+│       ├── TrendingSection.css
+│       ├── MovieCard.jsx
+│       ├── MovieCard.css
+│       └── Footer.jsx
+
+````
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** – UI development
+- 💅 **CSS Flexbox & Grid** – Layout and styling
+- ⚡ **Vite** – Fast build tool for development
+- 🌐 **Netlify** – Deployment
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/NathiyaMurugan06/netflix-clone.git
+cd netflix-clone
+````
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the app**
+
+```bash
+npm run dev
+```
+
+4. **Visit**
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📦 Dependencies
+
+* React
+* Vite
+
+---
+
+## 🙋‍♀️ Author
+
+Built with ❤️ by **Nathiya Murugan**
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
